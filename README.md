@@ -74,8 +74,11 @@ Since ClusterIP isolates the network inside Minikube, map the service port direc
 
 `kubectl port-forward svc/echo-api-service 8080:80`
 
-### Interacting with Endpoints
-While the port-forward tunnel is active, open your web browser or use a tool like `curl` to visit the following local URLs:
+---
+
+## Interacting with Endpoints
+
+Finally, while the port-forward tunnel is active, open your web browser or use a tool like `curl` to visit the following local URLs:
 
 1. Root Endpoint: `http://localhost:8080/`
 Fetches configuration values dynamically. It will display your custom greetings injected securely via the `ConfigMap`.
