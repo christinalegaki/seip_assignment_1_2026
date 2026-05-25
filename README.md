@@ -82,8 +82,8 @@ Finally, while the port-forward tunnel is active, open your web browser or use a
 
 1. Root Endpoint: `http://localhost:8080/`
 
-Fetches configuration values dynamically. It will display your custom greetings injected securely via the `ConfigMap`.
+* Fetches configuration values dynamically. It will display your custom greetings injected securely via the `ConfigMap`.
 
 2. Secure Config Endpoint: `http://localhost:8080/secure-config`
 
-Verifies secret injection. It will safely display an `Authorized` message along with a masked suffix of your secret key, showing that the system read the decoded Base64 `Secret` string perfectly at boot.
+* Verifies secret injection. It will safely display an `Authorized` message along with a masked suffix of your secret key, showing that the system read the decoded Base64 `Secret` string perfectly at boot.
