@@ -41,7 +41,7 @@ Here is an explanation of what each core file in this repository does:
 Follow these sequential steps to set up, run, and verify the infrastructure on your local machine.
 
 ### Prerequisites
-Fist of all, make sure we have Docker Desktop open and running in the background before starting.
+Fist of all, make sure you have Docker Desktop open and running in the background before starting.
 
 ### Step 1: Clone the Repository
 Open your terminal and download your repository copy:
