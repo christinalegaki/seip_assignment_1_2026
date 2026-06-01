@@ -1,10 +1,10 @@
 # Software Engineering in Practice — Assignment 1 (2026)
 ## Lab Assignment 1 - Advanced DevOps: Production-Grade CI/CD, External Configuration, and Orchestration
 
-**Student Name:** Legaki Christina
-**Student ID:** 8230074
-**University:** Athens University of Economics and Business (AUEB)
-**Date:** June, 2026
+- **Student Name:** Legaki Christina
+- **Student ID:** 8230074
+- **University:** Athens University of Economics and Business (AUEB)
+- **Date:** June, 2026
 
 ## GitHub Repository Link
 
@@ -24,7 +24,7 @@ The section below contains the verification screenshots and raw outputs from the
 
 ### 1. Resource Enumeration (`kubectl get all -n default`)
 
-Below is the terminal screenshot showing that all 3 replicas (pods) are successfully `Running` and healthy (`1/1 READY`), along with the active internal `ClusterIP` network mapping port 80 to 3000.
+Below is the terminal screenshot showing that all 3 replicas (pods) are successfully `Running` and healthy (`1/1 READY`), along with the active internal `ClusterIP` network exposing port 80.
 
 ![Kubectl Get All Terminal Output](screenshots/kubectl_all_proof.png)
 
